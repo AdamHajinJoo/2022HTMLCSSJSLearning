@@ -10,11 +10,10 @@
 </html> -->
 
 <!-- 2. 문서 기본 구조, 텍스트 태그
-
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Practicing...</title>
+        <title>2. 문서 기본 구조, 텍스트 태그</title>
     </head>
     <body>
         <p>지금까지 스포츠 뉴스였습니다.</p>
@@ -34,7 +33,7 @@
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>태그의 구분과 텍스트 태그</title>
+        <title>3. 블록 태그와 인라인 태그</title>
     </head>
     <body>
         <h1>제목을 표시하는 큰 텍스트!</h1>
@@ -49,7 +48,7 @@
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>이미지를 표시해보자</title>
+        <title>4. 이미지 태그</title>
     </head>
     <body>
         <h1>이미지 추가하기</h1>
@@ -62,7 +61,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>공부를 다짐하는 문서</title>
+    <title>5. 컨테이너 태그</title>
   </head>
   <body>
     <div>
@@ -94,3 +93,153 @@
   </body>
 </html>-->
 
+<!-- 6. 목록 태그
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6. 목록 태그</title>
+</head>
+<body>
+    <h2>Unordered list</h2>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>Python</li>
+    </ul>
+    <h2>Ordered list</h2>
+    <ol>
+        <li>C</li>
+        <li>Python</li>
+        <li>Java</li>
+        <div>...</div>
+        <li>Javascript</li>
+    </ol>
+</body>
+</html> -->
+
+<!-- 중간점검: 놀려보자 -->
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>최준영은 바보</title>
+  </head>
+  <body>
+    <div class="1st_p">
+      <h1>개요</h1>
+      <p>
+        <b>최준영</b>은 2022년 1월 28일 <mark>HTML</mark>과 <mark>CSS</mark>를
+        배우기 시작하였다. 현재 그는 기초 강의 5장 텍스트 태그를 배우고 있으며,
+        아래와 같은 뻘짓들을 하였다.
+      </p>
+      <div>
+        <img src="images/choi2.png" title="주하진 바보????" />
+      </div>
+      △ 장난질1<br><br>
+      <div>
+        <a href="https://www.youtube.com/watch?v=iMTblJbmam4">
+          <img src="images/choi.png" title="[4K]주하진의 킬링벌스 바로가기" />
+        </a>
+      </div>
+      △ 장난질2. (링크가 걸려있다)
+    </div>
+    <div class="2nd_p">
+      <h1>인적사항</h1>
+      <p>
+        <i>추가바람</i>
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- 7. 입력 요소 만들기
+    https:// developer.mozilla.org/ko/docs/Web/HTML/Element/Input
+
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7. 입력 요소 만들기</title>
+</head>
+<body>
+  <div class="practicing_input">
+    <input name="text" type="text" maxlength="5" placeholder="메시지 입력"> <br><br>
+    <input name="color" type="color"> <br><br>
+    <input name="what?" value="PUSH" type="button"> <br><br>
+    <input name="idunno" type="range" mix="0" max="100" step="10"> <br><br>
+    <input name="shxt" type="date"> <br><br>
+  </div>
+  <hr>
+  <div class="another_inputs">
+     <select name="slct">
+       <option value="apple">사과</option>
+       <option value="strawberry" selected>딸기</option>
+       <option value="orange">오렌지</option>
+       <option value="peach">복숭아</option>
+     </select>
+     <br>
+     <textarea name="content" rows="4" cols="10"></textarea>
+  </div>
+</body>
+</html>
+-->
+
+<!-- 8. Form - 서버와 클라이언트, 폼 태그
+
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8. Form - 서버와 클라이언트, 폼 태그</title>
+</head>
+<body>
+  <h1>당신의 최애 선생님은?</h1>
+  <form action="exam.php" method=post>
+    <select name="subjects">
+      <option value='math'>수학</option>
+      <option value='physics'>물리학</option>
+      <option value='biology'>생명과학</option>
+    </select>
+    <br>
+    <input type="text" placeholder="선생님 이름">
+    <br>
+    <input type='submit' value='전송'>
+  </form>
+</body>
+</html>-->
+
+<!-- 9. 메타 태그
+ <html lang="kr">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+ </head>
+ <body>
+   
+ </body>
+ </html>-->
+
+<!-- 10. 뷰포트
+
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10. 뷰포트</title>
+  </head>
+  <body>
+    안녕하세요!<br />감사해요!<br />잘있어요!<br />다시만나요!
+  </body>
+</html>
+ -->
