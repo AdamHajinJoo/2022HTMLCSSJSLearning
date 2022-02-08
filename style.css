@@ -1,0 +1,67 @@
+/*
+선택자{
+    속성명: 속성값;
+}
+
+전체 선택       *{}
+태그 선택       태그이름{}
+클래스 선택자   .클래스이름{}
+아이디 선택자   #id이름{}
+
+그룹 선택자     태그1, 태그2, 태그3{}
+
+선택자 우선순위:  id>클래스>태그
+*/
+
+.container {
+  background: beige;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.item {
+  width: 70px;
+  height: 60px;
+}
+.item1 {
+  background: #ef9a9a;
+  /*padding: 20px;*/
+  /* flex-grow: 2;
+  flex-shrink: 5; */
+}
+.item2 {
+  background: #f48fb1;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+}
+.item3 {
+  background: #ce93d8;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+}
+.item4 {
+  background: #b39ddb;
+}
+.item5 {
+  background: #90caf9;
+}
+.item6 {
+  background: #a5d6a7;
+}
+.item7 {
+  background: #e6ee9c;
+}
+.item8 {
+  background: #fff494;
+}
+.item9 {
+  background: #ffc576;
+}
+.item10 {
+  background: #ffa188;
+}
